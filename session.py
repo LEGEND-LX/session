@@ -20,7 +20,7 @@ print("""String Generator. ==> PYTHONBot. Get Your Api Id & Api Hash From my.tel
 APP_ID = int(input("Enter APP ID - "))
 API_HASH = input("Enter API HASH - ")
 
-with TelegramClient(StringSession(), APP_ID, API_HASH) as LEGENDBOT:
+with TelegramClient(StringSession(), APP_ID, API_HASH) as PYTHONBOT:
     print("")
     print("This is your STRING_SESSION. Please Keep It safe.")
     print("")
