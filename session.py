@@ -1,17 +1,22 @@
 
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
-LEGENDBOT = """
+PYTHONBOT = """
 """
-print(LEGENDBOT)
-print("""String Generator. ==> LEGENDBot. Get Your Api Id & Api Hash From my.telegram.org and fill accordingly.
-╭╮╱╱╭━━━┳━━━┳━━━┳━╮╱╭┳━━━┳━━╮╭━━━┳━━━━╮
-┃┃╱╱┃╭━━┫╭━╮┃╭━━┫┃╰╮┃┣╮╭╮┃╭╮┃┃╭━╮┃╭╮╭╮┃
-┃┃╱╱┃╰━━┫┃╱╰┫╰━━┫╭╮╰╯┃┃┃┃┃╰╯╰┫┃╱┃┣╯┃┃╰╯
-┃┃╱╭┫╭━━┫┃╭━┫╭━━┫┃╰╮┃┃┃┃┃┃╭━╮┃┃╱┃┃╱┃┃
-┃╰━╯┃╰━━┫╰┻━┃╰━━┫╱┃┃┣╯╰╯┃╰━╯┃╰━╯┃╱┃┃
-╰━━━┻━━━┻━━━┻━━━┻╯╱╰━┻━━━┻━━━┻━━━╯╱╰╯"""
-      )
+print(PYTHONBOT)
+print("""String Generator. ==> PYTHONBot. Get Your Api Id & Api Hash From my.telegram.org and fill accordingly.
+╭━━━┳╮╱╱╭┳━━━━┳╮╱╭┳━━━┳━╮╱╭╮
+┃╭━╮┃╰╮╭╯┃╭╮╭╮┃┃╱┃┃╭━╮┃┃╰╮┃┃
+┃╰━╯┣╮╰╯╭┻╯┃┃╰┫╰━╯┃┃╱┃┃╭╮╰╯┃
+┃╭━━╯╰╮╭╯╱╱┃┃╱┃╭━╮┃┃╱┃┃┃╰╮┃┃
+┃┃╱╱╱╱┃┃╱╱╱┃┃╱┃┃╱┃┃╰━╯┃┃╱┃┃┃
+╰╯╱╱╱╱╰╯╱╱╱╰╯╱╰╯╱╰┻━━━┻╯╱╰━╯
+╭━━╮╭━━━┳━━━━╮
+┃╭╮┃┃╭━╮┃╭╮╭╮┃
+┃╰╯╰┫┃╱┃┣╯┃┃╰╯
+┃╭━╮┃┃╱┃┃╱┃┃
+┃╰━╯┃╰━╯┃╱┃┃
+╰━━━┻━━━╯╱╰╯""")
 APP_ID = int(input("Enter APP ID - "))
 API_HASH = input("Enter API HASH - ")
 
