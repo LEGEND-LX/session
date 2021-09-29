@@ -27,6 +27,6 @@ with TelegramClient(StringSession(), APP_ID, API_HASH) as PYTHONBOT:
     print(PYTHONBOT.session.save())
     print("")
     print("You can Get Your String Session In Saved Message of Your Telegram Account. Remember To Make New String Session Whenever You Terminate Sessions.")
-    omk =LEGENDBOT.send_message("me", f"`{PYTHONBOT.session.save()}`")
+    omk =PYTHONBOT.send_message("me", f"`{PYTHONBOT.session.save()}`")
     omk.reply("The above is the `LEGEND_STRING` #POWERFUL [LEGENDBOT](https://t.me/Legend_Userbot)"
 		)
